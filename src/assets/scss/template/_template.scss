@@ -8,6 +8,10 @@ html,
   background: $body-background !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 .container.header,
 .container.preheader {
   background: $body-background;
@@ -15,6 +19,10 @@ html,
 
 .body-drip {
   border-top: 8px solid #663399;
+}
+
+p {
+  hyphens: none;
 }
 
 // Full Width Headers
@@ -80,6 +88,76 @@ html,
   }
 }
 
+.table {
+  .row {
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0 10px 0;
+  }
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subheading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.social-icon {
+  height: 40px;
+  margin: 10px;
+}
+
+ .avatar {
+   border-radius: 200px;
+ }
+
+ .bg-aqua {
+   background-color: $secondary-color;
+ }
+
+.btn {
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: $primary-color;
+  color: $white;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.btn--outline {
+  background-color: none !important;
+  color: $black;
+  border: 2px solid $black;
+}
+
+.bg-yellow {
+  background-color: $bg-yellow;
+}
 
 // Social Media
 table.button.facebook table td {

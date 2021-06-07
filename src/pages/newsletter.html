@@ -1,44 +1,129 @@
 ---
-subject: My Newsletter Email Template Subject
+subject: Monthly Newsletter
 ---
 
-<container>
+{{>header}}
 
-  <spacer size="16"></spacer>
+<container class="divider">
+  <img src="assets/img/divider.png" />
+</container>
 
+<container class="body-border">
   <row>
     <columns>
-      <h1 class="text-center">The Insider</h1>
-      <center>
-        <img src="http://placehold.it/500x200">
-      </center>
 
+      <spacer size="32"></spacer>
+
+      <p>Hi [NAME],</p>
+
+      <p>
+        I am so grateful to the community of friends we have been blessed with. A special thank you to each and every one of you who have done so much to support us this past month. We have friends sharing the documentary The Reality of Truth on
+        YouTube (see the film here), providing ratings and reviews on Google Maps (see reviews here) and TripAdvisor (see reviews here), podcast interviews, health and wellness articles for the press, video testimonials, refer-a-friend and word of
+        mouth. Thank you for helping us by sharing your enthusiasm with your networks of like-minded friends and family.
+      </p>
+
+
+    </columns>
+  </row>
+  <hr />
+  <row>
+    <columns>
+      <h4 class="text-center text-bold">
+        We still have space available for our upcoming workshops:
+      </h4>
+
+      <p>
+        For a complete list of speakers and dates, please call +1 (844) 216-4556.
+      </p>
+    </columns>
+  </row>
+  <row>
+    <columns small="12" large="6">
+      <a href="[EVENT_LINK]">
+        <img src="assets/img/avatar-placeholder.png" class="avatar" />
+      </a>
       <spacer size="16"></spacer>
-      
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa itaque illo doloribus soluta expedita dolores commodi fuga odit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reiciendis eos magni deleniti accusamus tempore, consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reiciendis eos magni deleniti accusamus tempore, consectetur! Maxime amet, exercitationem nihil fugit eius esse voluptatum ab incidunt minima, saepe reiciendis ipsum.</p>
+      <p class="text-center">
+        <span class="text-bold">Michael Beckwith</span>
+        <br />
+        Aug 1-8
+      </p>
+      <spacer size="16"></spacer>
+      <p>
+        <a href="https://yu240.infusion-links.com/api/v1/click/5688747178196992/5476187355217920" class="btn">I'm interested</a>
+      </p>
+      <spacer size="32"></spacer>
+    </columns>
+    <columns small="12" large="6">
+      <a href="[EVENT_LINK]">
+        <img src="assets/img/avatar-placeholder.png" class="avatar" />
+      </a>
+      <spacer size="16"></spacer>
+      <p class="text-center">
+        <span class="text-bold">Michael Beckwith</span>
+        <br />
+        Aug 1-8
+      </p>
+      <spacer size="16"></spacer>
+      <p>
+        <a href="https://yu240.infusion-links.com/api/v1/click/5688747178196992/5476187355217920" class="btn">I'm interested</a>
+      </p>
+      <spacer size="32"></spacer>
+    </columns>
+  </row>
+  <hr />
+  <row>
+    <columns>
+      <h2 class="text-center">#myrythmiastory<br />quarterly contest</h2>
+      <p>
+        How was your Rythmia experience? We’d like to hear about it! Our 2nd Quarter contest is open to guests who checked out between April 1 - June 30 The winner will receive an all-inclusive 7-night stay at the resort. So please create your video
+        while your experience is fresh in your mind. You can submit your video any time between now and July 11. Drawing July 13 and announcement via social media July 18, 2017.
+      </p>
+      <h5 class="text-bold">How to participate:</h5>
+      <h5><span class="bg-yellow">Step 1:</span></h5>
+      <p>
+        Record a :30 - 2 minute video of YOUR RYTHMIA STORY
+      </p>
+      <h5><span class="bg-yellow">Step 2:</span></h5>
+      <p>
+        Post video to your social media (Facebook, Instagram, Twitter) and include the hashtag: #MyRythmiaStory
+      </p>
+      <h5><span class="bg-yellow">Step 3:</span></h5>
+      <p>
+        Email your video to contest@rythmia.com. Include your name and phone number to be automatically entered for a chance to WIN a 7 night stay at Rythmia (does not include airfare).
+      </p>
 
-      <row>
-        <columns large="6">
-          <h4>More Reading:</h4>
-          <ul>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
-            <li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
-          </ul>
-        </columns>
-        <columns>
-          <h4>Get Involved:</h4>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
-        </columns>
-      </row>
+      <p>
+        <i>Please do not use copyright materials in your submission (e.g. photos or music you do not have permission to use).</i>
+      </p>
 
-      <p><small>You received this email because you're signed up to get updates from us. <a href="#">Click here to unsubscribe.</a></small></p>
+      <hr />
+
+      <h2 class="text-center">Monthly Winner</h2>
+      <h5 class="text-center">
+        Congratulations to [WINNER_NAME], our month of [MONTH] WINNER of a 7-night stay at Rythmia!
+      </h5>
+      <p>
+        For more information or to book your next trip please call us at 844.216.4556 or visit our <a href="https://yu240.infusion-links.com/api/v1/click/4952669844537344/5476187355217920">website</a>. Pricing starts at <span class="text-bold">$299*</span>
+        per night.
+      </p>
+      <p>
+        If you're looking for your soul's purpose, please join us and come get your Miracle!
+      </p>
+      <p>
+        Love,<br />
+        Gerry
+      </p>
+      <spacer size="32"></spacer>
+      <p>
+        *Pricing does not include resort surcharge, pricing is per night per person.
+      </p>
     </columns>
   </row>
 </container>
+
+<container class="divider">
+  <img src="assets/img/divider.png" />
+</container>
+
+{{>footer}}
